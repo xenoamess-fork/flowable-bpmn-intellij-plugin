@@ -28,6 +28,8 @@ apply plugin: 'kotlin'
 apply plugin: 'kotlin-kapt'
 
 dependencies {
+    implementation "com.jetbrains.intellij.java:java-compiler-ant-tasks:203.7148.70"
+
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     implementation project(":xml-parser-api")
